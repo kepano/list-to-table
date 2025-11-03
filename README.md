@@ -1,6 +1,4 @@
-# List to Table
-
-A simple Obsidian plugin that converts selected lists into markdown tables.
+A simple Obsidian plugin that converts selected lists into Markdown tables.
 
 ## Features
 
