@@ -1,7 +1,7 @@
 {
 	"id": "list-to-table",
 	"name": "List to Table",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Convert lists to tables with a simple command.",
 	"author": "kepano",
