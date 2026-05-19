@@ -15,35 +15,10 @@ A simple Obsidian plugin that converts selected lists into Markdown tables.
 2. Open the command palette (Ctrl/Cmd + P)
 3. Run one of the commands below
 
-### Convert to table with single column
+## Example
 
-Flattens any list into a single-column table.
+Given this selection:
 
-**Before:**
-```
-- bullet 1
-- bullet 2
-  - nested item
-- [ ] task item
-1. numbered item
-```
-
-**After:**
-```
-|          |
-| -------- |
-| bullet 1 |
-| bullet 2 |
-| nested item |
-| task item |
-| numbered item |
-```
-
-### Convert to table with nested items as rows
-
-Top-level items become column headers; nested items fill the rows below.
-
-**Before:**
 ```
 - Fruit
   - apple
@@ -53,7 +28,25 @@ Top-level items become column headers; nested items fill the rows below.
   - yellow
 ```
 
-**After:**
+### Convert to table with single column
+
+Flattens the list into a single-column table.
+
+```
+|          |
+| -------- |
+| Fruit |
+| apple |
+| banana |
+| Color |
+| red |
+| yellow |
+```
+
+### Convert to table with nested items as rows
+
+Top-level items become column headers; nested items fill the rows below.
+
 ```
 | Fruit | Color |
 | -------- | -------- |
@@ -65,17 +58,6 @@ Top-level items become column headers; nested items fill the rows below.
 
 Top-level items become row labels; nested items fill the cells across that row.
 
-**Before:**
-```
-- Fruit
-  - apple
-  - banana
-- Color
-  - red
-  - yellow
-```
-
-**After:**
 ```
 |          |          |          |
 | -------- | -------- | -------- |
