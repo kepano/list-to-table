@@ -1,6 +1,6 @@
 {
 	"name": "list-to-table",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Convert lists to tables with a simple command.",
 	"main": "main.js",
 	"scripts": {
